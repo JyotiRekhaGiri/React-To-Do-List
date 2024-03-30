@@ -1,0 +1,31 @@
+form input{
+    width: 240px;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border: none;
+    color: #ccc;
+    background: rgb(56, 82, 108);
+    /* border-color: linear-gradient(rgb(88, 20, 120), rgb(132, 75, 148), rgb(231, 68, 231)); */
+    border-radius: 4px;
+}
+
+.Form-box{
+    
+}
+
+.form-input{
+    /* width: 350px; */
+    /* width: calc(100%-260px); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background: linear-gradient(rgb(88, 20, 120), rgb(132, 75, 148), rgb(231, 68, 231));
+}
+.form-input button{
+    border: none;
+    border-radius: 6px;
+    background: none;
+    color: white;
+    font-weight: 700;
+}
